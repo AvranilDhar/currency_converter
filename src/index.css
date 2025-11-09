@@ -1,1 +1,16 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@font-face {
+  font-family: "wiseSans";
+  src: url("./assets/fonts/WiseSans-Heavy.4bf7de7a.woff2") format("woff2");
+}
+@font-face {
+  font-family: "stackSans";
+  src: url("./assets/fonts/StackSansHeadline-Regular.ttf") format("ttf");
+}
+.font-stackSans {
+  font-family: "stackSans", sans-serif;
+}
+.font-wiseSans {
+  font-family: "WiseSans", sans-serif;
+}
